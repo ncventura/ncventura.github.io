@@ -1,0 +1,350 @@
+body {
+  background-color: #AD9EFF;
+  background-image: url("img/smiles.png");
+  background-repeat: repeat;
+  background-size:  1%;
+}
+
+body::-webkit-scrollbar {
+  width: 1.2em;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+  border: 2px solid black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+  border: 2px solid black;
+}
+
+.work {
+  overflow-x: hidden;
+}
+
+#boat {
+  position:absolute;
+  left:500px;
+  top:-200px;
+}
+
+#run {
+  position: absolute;
+  z-index: -1;
+  left: -70px;
+  top:-100px;
+}
+
+#biobox {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  background-color: white;
+  border: .08em solid black;
+  width: 340px;
+  height: 450px;
+}
+
+#bubbles {
+  position: absolute;
+  z-index: 1;
+  left: 920px;
+  top: 1780px;
+}
+
+#beachball {
+  position: absolute;
+  z-index: -1;
+  left: 960px;
+  top: 1060px;
+}
+
+#sewer {
+  position: absolute;
+  z-index: -1;
+  left: 50px;
+  top: 1330px;
+}
+
+#tay {
+  position: absolute;
+  z-index: -1;
+  left: 110px;
+  top: 1850px;
+}
+
+#kicks {
+  position: absolute;
+  z-index: -1;
+  left: 660px;
+  top: 1960px;
+}
+
+#shock {
+  position: absolute;
+  z-index: -1;
+  left: 30px;
+  top: 3250px;
+}
+
+#sven {
+  position: absolute;
+  z-index: -1;
+  left: 560px;
+  top: 810px;
+}
+
+#nve {
+  position: absolute;
+  z-index: 1;
+  left: 830px;
+  top: 550px;
+}
+
+#noswim {
+  position: absolute;
+  z-index: -1;
+  left: 440px;
+  top: 3150px;
+}
+
+#uup {
+  position: absolute;
+  z-index: -1;
+  left: 230px;
+  top: 1160px;
+}
+
+#bend {
+  position: absolute;
+  z-index: -1;
+  left: 90px;
+  top: 3600px;
+}
+
+#spikes {
+  position: absolute;
+  z-index: -1;
+  left: 820px;
+  top: 4530px;
+}
+
+#starstruck {
+  position: absolute;
+  z-index: 1;
+  left: 600px;
+  top:5000px;
+}
+
+#boo {
+  position: absolute;
+  z-index: -1;
+  left: 65px;
+  top: 4775px;
+}
+
+#rock {
+  position: absolute;
+  z-index: -1;
+  left: 650px;
+  top: 3840px;
+}
+
+#taven {
+  position: absolute;
+  z-index: -1;
+  left: 60px;
+  top: 2800px;
+}
+
+#light {
+  position: absolute;
+  z-index: -1;
+  left: 1030px;
+  top: 5220px;
+}
+
+#library {
+  position: absolute;
+  z-index: -1;
+  left: 820px;
+  top: 2950px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width:100%;
+}
+
+#bigsmiles {
+  position:fixed;
+  right:50px;
+  bottom: 20px;
+  transform: rotate(15deg);
+  z-index: 100;
+}
+
+#bigwinks {
+  position:fixed;
+  right:50px;
+  bottom: 20px;
+  transform: rotate(15deg);
+  z-index: 100;
+}
+
+#dudefar {
+  position:absolute;
+  top:2400px;
+  left:1080px;
+}
+
+#dudeclose {
+  position:absolute;
+  top:2400px;
+  left:1080px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#ending {
+  position:absolute;
+  left: 480px;
+  top: 200px;
+}
+
+#eye {
+  position: absolute;
+  left: 1230px;
+  top:865px;
+}
+
+#bryon {
+  position: absolute;
+  left: 100px;
+  top:5270px;
+}
+
+.videobox {
+  border: 3px solid black;
+  box-shadow: 10px 10px 0px #000;
+  position: absolute;
+  height: 430px;
+  width: 400px;
+}
+
+.video {
+  width: 98%;
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  left: 1%;
+}
+
+.gif {
+  width: 98%;
+  position: absolute;
+  top: 80px;
+  left: 1%;
+}
+
+#orange.videobox {
+  top: 20px;
+  left: 1040px;
+  background-color: rgba(255, 195, 118, 1);
+}
+
+#green.videobox {
+  top: 600px;
+  left: 75px;
+  background-color: rgba(109, 255, 115, 1);
+}
+
+
+#purple.videobox {
+  top: 1295px;
+  left: 920px;
+  background-color: rgba(190, 125, 255, 1);
+}
+
+#red.videobox {
+  top: 2300px;
+  left: 50px;
+  background-color: rgba(255, 125, 125, 1);
+}
+
+#pink.videobox {
+  top: 2450px;
+  left: 500px;
+  background-color: rgba(255, 125, 225, 1);
+}
+
+#blue.videobox {
+  top: 2450px;
+  left: 980px;
+  top: 3730px;
+  background-color: rgba(120, 200, 255, 1);
+}
+
+#yellow.videobox {
+  top: 2450px;
+  left: 370px;
+  top: 4320px;
+  background-color: rgba(250, 250, 150, 1);
+}
+
+.h1 {
+  font-family: "Garamond";
+  text-transform: lowercase;
+  font-size: 2.1em;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+
+.divider {
+  width: 100%;
+  border-top: .08em solid black;
+}
+
+#vidbox.divider {
+  border-top: 2px solid black;
+}
+
+.h2 {
+  font-family: "Garamond";
+  text-transform: lowercase;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.body {
+  font-family: "Helvetica";
+  text-transform: lowercase;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.player {
+  padding-top: 10px;
+  display:block;
+  width:98%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.vidtitle {
+  font-family: "Helvetica";
+  font-size: 14px;
+  padding: 15px;
+}
